@@ -37,11 +37,11 @@ function create ()
         blendMode: 'ADD'
     });
 
-    var logo = this.physics.add.image(400, 100, 'logo');
+    var logo = this.physics.add.image(400, 100, 'frog');
 
     logo.setVelocity(100, 200);
     logo.setBounce(1, 1);
     logo.setCollideWorldBounds(true);
 
-    emitter.startFollow(logo);
+    emitter.startFollow(frog);
 }
